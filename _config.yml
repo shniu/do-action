@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一万英尺的高度
-subtitle: 知其所以然, 知未然
+title: ChainTech
+subtitle: 知其所以然
 description: 一个人并不是生来要给打败的，你尽可以的消灭他，可就是打不败他
 author: shniu<niushaohan@digcredit.com>
 language: zh-Hans
@@ -44,7 +44,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: default
 category_map:
 tag_map:
 
