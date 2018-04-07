@@ -108,7 +108,39 @@ tags:
 
 ### 多层架构的运维复杂度更大
 
+可以简单分为4层：基础层、平台层、应用层和接入层
+
 分工不是问题，问题是分工后的协作是否统一和规范。
+
+## 分布式系统技术栈
+
+分布式系统的主要目标是增加系统容量，提高系统可用性，从技术角度讲就是如下两点：
+
+- 大流量处理。通过集群技术把大规模并发请求的负载分散到不同的机器上
+- 关键业务保护。提高服务的可用性，如果流量过大，需要对业务降级，以保护关键业务流转
+
+就是提高整体架构的吞吐量更多的并发和流量；提高系统的稳定性，让系统的可用性更高
+
+### 提高系统性能
+
+![img](https://github.com/shniu/resources/raw/master/images/distribute-tech.jpeg)
+
+### 提高架构图的稳定性
+
+![img](https://github.com/shniu/resources/raw/master/images/distribute-tech2.jpeg)
+
+
+Docker 是一个非常值得学习和关注的技术。
+
+### 分布式系统的纲领
+
+- 全栈系统监控
+- 服务/资源调度
+- 流量调度
+- 状态/数据调度
+- 开发和运维自动化
+
+![img](https://github.com/shniu/resources/raw/master/images/distribute-tech3.jpeg)
 
 
 
