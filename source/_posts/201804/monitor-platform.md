@@ -34,3 +34,8 @@ node_load5{instance="xxx"} // 5分钟负载
 node_load15{instance="xxx"} // 15分钟负载
 ```
 
+## Spring boot and prometheus
+
+- [Exposing Metrics of a Spring Boot Application for Prometheus](https://reflectoring.io/monitoring-spring-boot-with-prometheus/)
+- [自定义Metrics：让Prometheus监控你的应用程序（Spring版)](http://yunlzheng.github.io/2018/01/24/use-prometheus-monitor-your-spring-boot-application/)
+

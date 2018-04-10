@@ -6,8 +6,19 @@ tags:
   - spring
 ---
 
+{% blockquote %}
+将书越读越薄，将知识越学越广阔
+{% endblockquote %}
+
+{% fullimage /images/spring-boot1.jpg, my-heaven, spring-boot %}
+
+Spring Boot(英文中是“引导”的意思)，是用来简化Spring应用的搭建到开发的过程。应用开箱即用，只要通过 “just run”（可能是 java -jar 或 tomcat 或 maven插件run 或 shell脚本），就可以启动项目。二者，Spring Boot 只要很少的Spring配置文件（例如那些xml，property）。 因为“习惯优先于配置”的原则，使得Spring Boot在快速开发应用和微服务架构实践中得到广泛应用。
+
 
 ## 快速入门
+
+- [Spring Boot 之 HelloWorld详解](http://www.spring4all.com/article/266)
+spring boot 入门级的使用介绍
 
 - [Spring Boot快速入门](http://blog.didispace.com/spring-boot-learning-1/)
 - [Java 8 简明教程](http://blog.didispace.com/books/java8-tutorial/ch1.html)
