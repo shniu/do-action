@@ -19,7 +19,7 @@ Spring Boot(英文中是“引导”的意思)，是用来简化Spring应用的�
 
 - [Spring Boot 之 HelloWorld详解](http://www.spring4all.com/article/266)
 spring boot 入门级的使用介绍
-
+- [Spring Boot 配置文件详解：自定义属性、随机数、多环境配置等](http://www.spring4all.com/article/248)
 - [Spring Boot快速入门](http://blog.didispace.com/spring-boot-learning-1/)
 - [Java 8 简明教程](http://blog.didispace.com/books/java8-tutorial/ch1.html)
 - [Thinking in Java (Java 编程思想)](http://blog.didispace.com/books/think-in-java/)
@@ -43,12 +43,28 @@ spring boot 入门级的使用介绍
 
 
 
-
-
 ### 关于 Spring 的一些注解
 - `@Controller`：修饰 class，用来创建处理 http 请求的对象
 - `@RestController`：Spring4 之后加入的注解，原来在 `@Controller` 中返回 json 需要 `@ResponseBody` 来配合，如果直接用 @RestController 替代 @Controller 就不需要再配置 @ResponseBody，默认返回 json 格式。
 - `@RequestMapping`：配置 url 映射
+
+### Spring boot 配置的优先级
+
+1. 命令行参数
+2. java:comp/env 里的 JNDI 属性
+3. JVM 系统属性
+4. 操作系统环境变量
+5. RandomValuePropertySource 属性类生成的 `random.*` 属性
+6. 应用以外的 application.properties（或 yml）文件
+7. 打包在应用内的 application.properties（或 yml）文件
+8. 在应用 @Configuration 配置类中，用 @PropertySource 注解声明的属性文件
+9. SpringApplication.setDefaultProperties 声明的默认属性
+
+命令行参数优先级最高。这个可以根据这个优先级，可以在测试或生产环境中快速地修改配置参数值，而不需要重新打包和部署应用。
+
+[Spring boot 的配置项](https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html)
+
+
 
 
 #### 其他资源

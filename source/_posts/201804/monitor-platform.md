@@ -39,3 +39,12 @@ node_load15{instance="xxx"} // 15分钟负载
 - [Exposing Metrics of a Spring Boot Application for Prometheus](https://reflectoring.io/monitoring-spring-boot-with-prometheus/)
 - [自定义Metrics：让Prometheus监控你的应用程序（Spring版)](http://yunlzheng.github.io/2018/01/24/use-prometheus-monitor-your-spring-boot-application/)
 
+## Docker hosts and containers monitoring
+
+- [Docker hosts and containers monitoring with Prometheus, Grafana, cAdvisor, NodeExporter and AlertManager](https://github.com/stefanprodan/dockprom)
+使用起来简单方便，使用及参考价值很大
+
+## Mongodb monitor
+
+- [A Prometheus exporter for MongoDB including sharding, replication and storage engines](https://github.com/percona/mongodb_exporter)
+
