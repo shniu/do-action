@@ -65,7 +65,9 @@ spring boot 入门级的使用介绍
 [Spring boot 的配置项](https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html)
 
 
+## Spring boot course
 
+[Spring Boot for Beginners in 10 Step](https://courses.in28minutes.com/p/spring-boot-for-beginners-in-10-steps)
 
 #### 其他资源
 - [js函数式编程](http://blog.didispace.com/books/mostly-adequate-guide-chinese/)
