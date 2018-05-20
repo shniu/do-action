@@ -69,3 +69,6 @@ tags:
 - [使用Mockito和SpringTest进行单元测试](http://sunxiang0918.cn/2016/03/28/%E4%BD%BF%E7%94%A8Mockito%E5%92%8CSpringTest%E8%BF%9B%E8%A1%8C%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/)
 
 - [in28minutes mockito courses](https://in28minutes1.teachable.com/courses/257149/lectures/3994283)
+
+- [Spring Boot干货系列：（十二）Spring Boot使用单元测试](http://tengj.top/2017/12/28/springboot12/)
+- [Exposing Metrics of a Spring Boot Application using Dropwizard](https://reflectoring.io/transparency-with-spring-boot/)
