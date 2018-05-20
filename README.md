@@ -48,3 +48,4 @@
 
 ##### 4.1 [cloudera blog](http://blog.cloudera.com/)
 
+Best practices, how-tos, use cases, and internals from Cloudera Engineering and the community
