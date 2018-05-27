@@ -12,3 +12,4 @@ tags:
 
 - [CAP Confusion: Problems with ‘partition tolerance’](http://blog.cloudera.com/blog/2010/04/cap-confusion-problems-with-partition-tolerance/)
 
+
