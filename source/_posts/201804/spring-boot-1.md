@@ -15,10 +15,11 @@ tags:
 Spring Boot(英文中是“引导”的意思)，是用来简化Spring应用的搭建到开发的过程。应用开箱即用，只要通过 “just run”（可能是 java -jar 或 tomcat 或 maven插件run 或 shell脚本），就可以启动项目。二者，Spring Boot 只要很少的Spring配置文件（例如那些xml，property）。 因为“习惯优先于配置”的原则，使得Spring Boot在快速开发应用和微服务架构实践中得到广泛应用。
 
 
-## 快速入门
+### 快速入门
 
 - [Spring Boot 之 HelloWorld详解](http://www.spring4all.com/article/266)
 spring boot 入门级的使用介绍
+
 - [Spring Boot 配置文件详解：自定义属性、随机数、多环境配置等](http://www.spring4all.com/article/248)
 - [Spring Boot快速入门](http://blog.didispace.com/spring-boot-learning-1/)
 - [Java 8 简明教程](http://blog.didispace.com/books/java8-tutorial/ch1.html)
@@ -35,11 +36,13 @@ spring boot 入门级的使用介绍
 - [Spring Cloud基础教程](http://blog.didispace.com/Spring-Cloud基础教程/)
 - [云原生应用的12要素](http://blog.didispace.com/12factor-zh-cn/)
 这是一个非常好的总结，有必要看一下
+
 - [spring cloud](http://blog.didispace.com/categories/Spring-Cloud/)
 - [spring for all 社区](http://www.spring4all.com)
 - [Spring Boot应用Docker化](http://doc.spring4all.com/spring-guildes/spring-boot-with-docker.html)
 - [论系统架构设计中缓存的重要性](http://www.spring4all.com/article/653)
-解耦是计算机系统架构设计中最常用的手段，那么缓存就必将在计算机系统中无处不在。使用缓存将大大提高我们系统的性能。而缓存用空间换时间的方式解决问题，而空间不可能无限使用，使用缓存我们将考虑如何存储，如何使用，如何提高命中率，如何确定有效的更新策略、更有如何保证数据一致性、自身可用性可维护性等等。[论系统架构设计中缓存的重要性](http://www.spring4all.com/question/177)
+解耦是计算机系统架构设计中最常用的手段，那么缓存就必将在计算机系统中无处不在。使用缓存将大大提高我们系统的性能。而缓存用空间换时间的方式解决问题，而空间不可能无限使用，使用缓存我们将考虑如何存储，如何使用，如何提高命中率，如何确定有效的更新策略、更有如何保证数据一致性、自身可用性可维护性等等。
+[论系统架构设计中缓存的重要性](http://www.spring4all.com/question/177)
 
 
 
@@ -65,9 +68,13 @@ spring boot 入门级的使用介绍
 [Spring boot 的配置项](https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html)
 
 
-## Spring boot course
+### Spring boot course
 
-[Spring Boot for Beginners in 10 Step](https://courses.in28minutes.com/p/spring-boot-for-beginners-in-10-steps)
+- [Spring Boot for Beginners in 10 Step](https://courses.in28minutes.com/p/spring-boot-for-beginners-in-10-steps)
+
+### Spring boot 错误处理
+
+- [Spring Boot 异常处理汇总](http://www.spring4all.com/article/1162)
 
 #### 其他资源
 - [js函数式编程](http://blog.didispace.com/books/mostly-adequate-guide-chinese/)
