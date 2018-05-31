@@ -59,3 +59,9 @@ To deploy services, make sure the image you're deploying is pushed to a registry
 - [https://blog.couchbase.com/deploy-docker-compose-services-swarm/](https://blog.couchbase.com/deploy-docker-compose-services-swarm/)  Deploy Docker Compose Services to Swarm
 - [https://technologyconversations.com/2017/01/23/using-docker-stack-and-compose-yaml-files-to-deploy-swarm-services/](https://technologyconversations.com/2017/01/23/using-docker-stack-and-compose-yaml-files-to-deploy-swarm-services/)
 
+
+### docker 技术
+
+Container (容器)是一种轻量级的虚拟化技术，它不需要模拟硬件创建虚拟机。在 Linux 系统里面，使用到 Linux kernel 的 cgroups，namespace(ipc，network， user，pid，mount），capability 等用于隔离运行环境和资源限制的技术。
+
+- [DOCKER基础技术：LINUX NAMESPACE](https://coolshell.cn/articles/17010.html)

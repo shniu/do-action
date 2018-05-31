@@ -31,4 +31,6 @@ tags:
 - REPEATABLE_READ--对相同字段的多次读取是一致的，除非数据被事务本身改变。可防止脏、不可重复读，但幻读仍可能发生
 - SERIALIZABLE--完全服从ACID的隔离级别，确保不发生脏、幻、不可重复读。这在所有的隔离级别中是最慢的，它是典型的通过完全锁定在事务中涉及的数据表来完成的
 
+### Ref
 
+- [SpringBoot事务注解@Transactional](https://blog.csdn.net/wkl305268748/article/details/77619367)
