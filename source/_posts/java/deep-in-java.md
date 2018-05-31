@@ -1,6 +1,6 @@
 ---
 title:  深入 Java 平台 - 总览
-p: 201805/deep-in-java
+p: java/deep-in-java
 date: 2018-05-14 07:17:22
 tags:
   - java
