@@ -12,10 +12,13 @@ tags:
 
 ```
 # 启动一个容器
-docker run -d -p 80:80 -v host_dir:container_dir --name web syph/web:1.0
+$ docker run -d -p 80:80 -v host_dir:container_dir --name web syph/web:1.0
 
 # 进入docker容器内部
-docker exec -it container_name /bin/bash
+$ docker exec -it container_name /bin/bash
+
+# 删除多个容器
+$ sudo docker rm $(docker ps -a -q)
 ```
 
 ### QA
