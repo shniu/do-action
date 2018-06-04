@@ -182,3 +182,9 @@ This repository hosts a complete workshop on Spring + Reactor.
 - [RxJava](https://github.com/ReactiveX/RxJava)
 
 RxJava – Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM.
+
+### 9 Spring boot
+
+###### 9.1 [awesome-spring-boot](https://github.com/ityouknow/awesome-spring-boot)
+
+收集各种Spring Boot 学习资源
