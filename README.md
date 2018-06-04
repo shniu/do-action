@@ -188,3 +188,13 @@ RxJava – Reactive Extensions for the JVM – a library for composing asynchron
 ###### 9.1 [awesome-spring-boot](https://github.com/ityouknow/awesome-spring-boot)
 
 收集各种Spring Boot 学习资源
+
+###### 9.2 [hsweb-framework](https://github.com/hs-web/hsweb-framework)
+
+hsweb (haʊs wɛb) 是一个用于快速搭建企业后台管理系统的基础项目,集成一揽子便捷功能如:通用增删改查，在线代码生成，权限管理，OAuth2.0 ,动态多数据源分布式事务，动态脚本，动态定时任务，在线数据库维护等等. 基于 spring-boot,mybaits http://hsweb.io
+
+###### 9.3 [spring-boot-api-project-seed](https://github.com/lihengming/spring-boot-api-project-seed)
+
+一个基于Spring Boot & MyBatis的种子项目，用于快速构建中小型API、RESTful API项目~
+
+
