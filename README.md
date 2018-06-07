@@ -146,6 +146,12 @@ docker-cheat-sheet
 
 Learn and understand Docker technologies, with real DevOps practice! https://www.gitbook.com/book/yeasy/do…
 
+###### 7.5 [Enterprise Kubernetes Made Easy](https://rancher.com/what-is-rancher/overview/)
+
+Kubernetes is a powerful engine for running containers, and Rancher builds a world-class car around that engine to accelerate adopting containers in your organization.
+
+这是一个好东西，留着慢慢研究
+
 ### 8. Java
 
 ###### 8.1 [Design patterns implemented in Java](https://github.com/iluwatar/java-design-patterns)
@@ -196,5 +202,12 @@ hsweb (haʊs wɛb) 是一个用于快速搭建企业后台管理系统的基础�
 ###### 9.3 [spring-boot-api-project-seed](https://github.com/lihengming/spring-boot-api-project-seed)
 
 一个基于Spring Boot & MyBatis的种子项目，用于快速构建中小型API、RESTful API项目~
+
+###### 9.4 [rhwayfun专栏](https://blog.csdn.net/u011116672/article/category/6153927)
+
+分布式系列文章，包括微服务
+https://blog.csdn.net/russell_tao/article/category/1074484
+
+
 
 
