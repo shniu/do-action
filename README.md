@@ -64,6 +64,10 @@ Best practices, how-tos, use cases, and internals from Cloudera Engineering and 
 
 Spring guides
 
+##### 4.3 [微服务 容器化 devops](https://anoyi.com/blog)
+
+轻量级微服务架构实践，https://github.com/ChinaSilence?tab=repositories
+
 ### 5. 面试
 
 ###### 5.1 [Interview-Notebook](https://github.com/CyC2018/Interview-Notebook)
