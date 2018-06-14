@@ -1,6 +1,6 @@
 ---
 title: spring jpa and mybatis
-p: 201805/spring-transactional
+p: spring/spring-transactional
 date: 2018-05-13 21:31:28
 tags:
   - spring
@@ -25,6 +25,10 @@ The LazyInitializationException is undoubtedly one of the most common exceptions
 - [如何对 JPA 或者 MyBatis 进行技术选型](http://www.spring4all.com/article/391)
 - [Spring Data JPA 从入门到进阶系列教程](http://www.spring4all.com/article/500)
 - [Spring Hibernate JPA 联表查询 复杂查询](https://www.cnblogs.com/jiangxiaoyaoblog/p/5635152.html)
+- [spring data jpa](https://docs.spring.io/spring-data/jpa/docs/2.0.7.RELEASE/reference/html/)
+- [spring data jpa specifications](https://docs.spring.io/spring-data/jpa/docs/2.0.7.RELEASE/reference/html/#specifications)
+
+扩展了jpa的能力
 
 JPQL
 

@@ -71,3 +71,4 @@ $ java -Xms4g -Xmx4g -Xmn768m -server -jar springboot-9-1.4.1.RELEASE.jar
 - [Spring Boot内嵌Tomcat启动](http://www.jb51.net/article/111853.htm)
 - [spring boot 自定义内嵌Tomcat](https://blog.csdn.net/mn960mn/article/details/51306140)
 - [Tomcat配置和Tomcat替换](http://blog.longjiazuo.com/archives/1725)
+- [SpringBoot的事务管理](http://fangjian0423.github.io/2016/10/07/springboot-transaction/)

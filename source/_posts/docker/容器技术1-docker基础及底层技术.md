@@ -58,6 +58,7 @@ To deploy services, make sure the image you're deploying is pushed to a registry
 - [https://docs.docker.com/engine/swarm/stack-deploy/](https://docs.docker.com/engine/swarm/stack-deploy/)这篇文章讲了部署到swarm的全过程
 - [https://blog.couchbase.com/deploy-docker-compose-services-swarm/](https://blog.couchbase.com/deploy-docker-compose-services-swarm/)  Deploy Docker Compose Services to Swarm
 - [https://technologyconversations.com/2017/01/23/using-docker-stack-and-compose-yaml-files-to-deploy-swarm-services/](https://technologyconversations.com/2017/01/23/using-docker-stack-and-compose-yaml-files-to-deploy-swarm-services/)
+- [Docker从入门到实践](https://yeasy.gitbooks.io/docker_practice/content/compose/introduction.html)
 
 
 ### docker 技术
