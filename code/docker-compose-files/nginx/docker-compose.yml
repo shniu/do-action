@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+
+  nginx:
+    image: nginx:1.13.12
+    restart: always
+    volumes:
+      - "/home/blockchain/www/test/nginx.conf.d:/etc/nginx/conf.d"
+      - "/home/blockchain/www/test/sbc-ui-test:/usr/nginx/html/sbc-ui-test"
+      - "/home/blockchain/www/test/sbc-admin-test:/usr/nginx/html/sbc-admin-test"
+      - "/home/blockchain/www/stage/sbc-ui-stage:/usr/nginx/html/sbc-ui-stage"
+      - "/home/blockchain/www/stage/sbc-admin-stage:/usr/nginx/html/sbc-admin-stage"
+    ports:
+      - "7071:7071"
+      - "7072:7072"
+      - "17071:17071"
+      - "17072:17072"
