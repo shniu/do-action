@@ -3,15 +3,14 @@ title: 区块链钱包 - 1 公私钥生成原理及私钥管理
 p: blockchain/wallet-intro1
 date: 2018-08-15 13:18:34
 tags:
-- blockchain
-- wallet
+  - blockchain
+  - wallet
 ---
 
 大纲：
 - 以比特币为例子介绍一下如何做签名和验证
 - 介绍密码学中的椭圆曲线函数生成公钥
 - 介绍比特币中的公钥使用哈希算法生成私钥
-- 
 
 ## 公私钥原理
 
