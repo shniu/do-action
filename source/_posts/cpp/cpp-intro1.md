@@ -64,3 +64,23 @@ aa[i] = '\0';
 #### 1.3 char * 和 char[] 的区别
 
 - `char *a = "abcd"` 此时"abcd"存放在常量区。通过指针只可以访问字符串常量，而不可以改变它; 而 `char a[20] = "abcd"` 此时 "abcd"存放在栈。可以通过指针去访问和修改数组内容。
+
+### 2. 常见错误
+
+#### 2.1 #error This file requires compiler and library support for the ISO C++ 2011 错误解决办法
+
+同样的代码，我在 Mac 上运行和在 Linux 上运行，就有不同，在 Linux 上运行就会报这样的错误。解决办法是：在 CMakeLists.txt 中添加如下配置
+
+```cpp
+include(CheckCXXCompilerFlag)
+CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
+CHECK_CXX_COMPILER_FLAG("-std=c++0x" COMPILER_SUPPORTS_CXX0X)
+if(COMPILER_SUPPORTS_CXX11)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11") 
+elseif(COMPILER_SUPPORTS_CXX0X)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
+else()
+    message(STATUS "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
+endif()
+```
+原因分析：跟 C++ 的编译器支持有关系，在 C++ 中的一些特性，只有在特定的版本才会支持，比如说 C++ 11 标准等。C++ 常用的编译器有GCC等，不同版本的 GCC 对 C++ 的标准支持是不一样的。 [C++ 11 标准的特性可以看这里](https://en.wikipedia.org/wiki/C%2B%2B11) ，这里 [compiler_support](https://en.cppreference.com/w/cpp/compiler_support) 可以找到编译器版本对C++的支持。
