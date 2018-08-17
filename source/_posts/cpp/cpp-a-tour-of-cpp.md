@@ -161,3 +161,54 @@ Father &ptr=son;//用派生类的对象初始化基类对象的使用
 2.用引用传递函数的参数，能保证参数在传递的过程中不产生副本，从而提高传递效率，同时通过const的使用，还可以保证参数在传递过程中的安全性
 
 3.引用本身是目标变量或对象的别名，对引用的操作本质上就是对目标变量或对象的操作。因此能使用引用时尽量使用引用而非指针
+
+#### 建议
+
+- You don’t hav e to know every detail of C++ to write good programs.
+- Focus on programming techniques, not on language features.
+- For the final word on language definition issues, see the ISO C++ standard
+- A function should perform a single logical operation
+- Keep functions short
+- Use overloading when functions perform conceptually the same task on different types
+- If a function may have to be evaluated at compile time, declare it constexpr
+- Avoid ‘‘magic constants;’’ use symbolic constants
+- Declare one name (only) per declaration
+- Keep common and local names short, and keep uncommon and nonlocal names longer.
+- Avoid similar-looking names.
+- Prefer the {}-initializer syntax for declarations with a named type; 
+- Prefer the = syntax for the initialization in declarations using auto;
+- Avoid uninitialized variables; 
+- Keep scopes small;
+- Keep use of pointers simple and straightforward;
+- Use nullptr rather than 0 or NULL;
+- Don’t declare a variable until you have a value to initialize it with; 
+- Don’t say in comments what can be clearly stated in code
+- State intent in comments
+- Avoid complicated expressions
+- Avoid narrowing conversions
+
+
+## 自定义类型
+
+#### 结构体
+
+构建自定义类型的第一种方式是组织需要的元素到一个数据结构中，称为结构体：
+
+```cpp
+struct Vector {
+  int sz; // number of elements
+  double∗ elem; // pointer to elements
+};
+
+// then
+Vector v;
+
+// We use . (dot) to access struct members through a name (and through a reference) and −> to
+// access struct members through a pointer
+void f(Vector v, Vector& rv, Vector∗ pv)
+{
+  int i1 = v.sz; // access through name
+  int i2 = rv.sz; // access through reference
+  int i4 = pv−>sz; // access through pointer
+}
+```
