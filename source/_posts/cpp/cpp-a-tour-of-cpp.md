@@ -212,3 +212,51 @@ void f(Vector v, Vector& rv, Vector∗ pv)
   int i4 = pv−>sz; // access through pointer
 }
 ```
+
+#### 类
+
+类拥有一组成员，可以使数据、函数、类型成员；接口被公开的成员函数定义，私有成员只能通过接口来访问。
+
+```cpp
+class Vector {
+public:
+    Vector(int s):elem{new double[s]}, sz{s} { }    // construct a Vector
+    double& operator[](int i) { return elem[i]; }   // element access: subscripting
+    int size() { return sz; }
+private:
+    double∗ elem;                                   // pointer to the elements
+    int sz;                                         // the number of elements
+};
+```
+
+#### Unions (联合体)
+
+略
+
+#### 枚举
+
+```cpp
+enum class Color { red, blue , green };
+enum class Traffic_light { green, yellow, red };
+
+Color col = Color::red;
+Traffic_light light = Traffic_light::red;
+
+enum Traffic {
+    red, blue, green
+};
+```
+
+#### 建议
+
+- Organize related data into structures (structs or classes)
+- Represent the distinction between an interface and an implemetation using a class
+- A struct is simply a class with its members public by default
+- Define constructors to guarantee and simplify initialization of classes
+- Use enumerations to represent sets of named constants
+- Prefer class enums over ‘‘plain’’ enums to minimize surprises
+- Define operations on enumerations for safe and simple use
+
+## 模块化
+
+
