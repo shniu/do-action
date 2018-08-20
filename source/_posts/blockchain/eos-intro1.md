@@ -17,5 +17,5 @@ tags:
 
 ibc 跨链通信
 
-- https://blog.csdn.net/ITleaks/article/details/80465715
+- [EOS特殊智能合约eosio](https://blog.csdn.net/ITleaks/article/details/80465715)
 
