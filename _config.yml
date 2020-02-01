@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ChainTech
-subtitle: 知其所以然
+title: CoffeeCat
+subtitle: 韶华易逝，不负流年，做一个优秀的工程师
 description: 一个人并不是生来要给打败的，你尽可以的消灭他，可就是打不败他
-author: shniu<niushaohan@digcredit.com>
+author: coffeecat<shaohan.niu.share@gmail.com>
 language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://shniu.github.io
+url: https://shniu.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -64,8 +64,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-# theme: next
-theme: next6.x
+theme: next
+# theme: next6.x
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
